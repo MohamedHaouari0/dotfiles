@@ -1,0 +1,49 @@
+add_newline = true
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$c\
+$cpp\
+$python\
+$rust\
+$golang\
+$nodejs\
+$docker_context\
+$cmd_duration\
+$line_break\
+$character
+"""
+
+
+[directory]
+style = "bold cyan"
+truncation_length = 3
+truncate_to_repo = false
+
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+
+[cmd_duration]
+min_time = 500
+format = "took [$duration](yellow)"
+
+[git_branch]
+symbol = "🌿 "
+
+[git_status]
+style = "yellow"
+
+
+[username]
+show_always = true
+style_user = "bold blue"
+
+[hostname]
+ssh_only = false
+style = "bold purple"
+format = "@[$hostname]($style) "

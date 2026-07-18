@@ -1,0 +1,13 @@
+*.swp
+*.swo
+*~
+.DS_Store
+
+.history
+.cache
+
+node_modules
+
+__pycache__
+
+*.pyc

@@ -1,0 +1,24 @@
+[user]
+	name = MohamedHaouari0
+	email = mohamedhaouari.2001@gmail.com
+
+[include]
+    path = ~/.config/git/aliases
+[core]
+	editor = code --wait
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[merge]
+	conflictstyle = zdiff3
+[push]
+	autoSetupRemote = true
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
+[advice]
+	statusHints = false
+[fetch]
+	prune = true
