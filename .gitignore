@@ -1,13 +1,27 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Swap / temporary files
 *.swp
 *.swo
 *~
-.DS_Store
 
-.history
-.cache
-
-node_modules
-
-__pycache__
-
+# Python
+__pycache__/
 *.pyc
+
+# Node
+node_modules/
+
+# Local history / cache
+.history/
+.cache/
+
+# tmux
+.tmux/resurrect/

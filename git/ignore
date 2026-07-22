@@ -1,0 +1,31 @@
+# Linux
+*~
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+
+# CMake
+build/
+cmake-build-*/
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# VSCode
+.vscode/
+
+# Temporary
+.cache/

@@ -6,6 +6,8 @@
     path = ~/.config/git/aliases
 [core]
 	editor = code --wait
+	excludesfile = /home/s1mo/.config/git/ignore
+	pager = less -FRX
 [init]
 	defaultBranch = main
 [color]
@@ -15,7 +17,7 @@
 [push]
 	autoSetupRemote = true
 [pull]
-	rebase = true
+	rebase = false
 [rerere]
 	enabled = true
 [advice]
